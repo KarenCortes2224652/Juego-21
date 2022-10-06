@@ -17,7 +17,10 @@ print("Jugador",sum)
 print("¿Quieres seguir jugando?")
 X=int(input("1.Para seguir jugando o 2.Para parar: "))
 if X==1: 
-    #Sum = es igual a la variable de suma del computador
+    #Sum = es igual a la variable de suma del jugador
+    #dan = variable de suma del computador
+    #d = es un número random nuevo para que no se importe como la variable pc 
+    #break = para parar el programa y se deje de ejecutar
     while sum<=21 and X!=2:
         d= random.randint(1,10)  
         sum =sum +d 
